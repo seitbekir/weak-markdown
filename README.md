@@ -1,7 +1,21 @@
-# Tauri + React + Typescript
+# Weak Markdown Viewer
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+This is simple Markdown viewer that allows to view files directly from the PC.
 
-## Recommended IDE Setup
+## Gnome
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Theme update does not work
+- File handling works
+
+## KDE
+
+- Not tested
+
+## MacOS
+
+- Not tested
+- File handling should not work
+
+## Windows
+
+- Good luck
