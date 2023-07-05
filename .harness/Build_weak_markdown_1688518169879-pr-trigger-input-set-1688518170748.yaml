@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_weak_markdown_1688518169879-pr-trigger-input-set
+  identifier: Build_weak_markdown_1688518169879prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_weak_markdown_1688518169879
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
