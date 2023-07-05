@@ -1,0 +1,34 @@
+{
+  "name": "weak-markdown",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && yarn run icons && vite build",
+    "preview": "vite preview",
+    "icons": "cd ./src-tauri/icons && svg-app-icon -d ./ -s 32 -s 64 -s 128 -s 256 -s 512 < Icon.svg && mv 512x512.png 256x256@2x.png && cp icon.svg scalable.svg",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
+    "@types/markdown-it": "^12.2.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-external-links": "^0.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@types/markdown-it-external-links": "^0.0.0",
+    "@types/node": "^18.7.10",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^3.0.0",
+    "sass": "^1.63.6",
+    "svg-app-icon": "^1.1.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1"
+  }
+}
