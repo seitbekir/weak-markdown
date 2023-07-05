@@ -1,6 +1,6 @@
 [package]
 name = "weak-markdown"
-version = "0.0.0"
+version = "0.0.1"
 description = "Weak Markdown Viewer"
 authors = ["Seitbekir Seidametov"]
 license = "MIT"
