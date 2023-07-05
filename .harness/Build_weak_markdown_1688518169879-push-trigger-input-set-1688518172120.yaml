@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_weak_markdown_1688518169879-push-trigger-input-set
+  identifier: Build_weak_markdown_1688518169879pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_weak_markdown_1688518169879
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
